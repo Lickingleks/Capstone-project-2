@@ -1,0 +1,162 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+}
+
+.banner{
+    display: block;
+    background-image: url(./assets/images/EADBC8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#banner-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2.5fr 1.5fr 2.5fr;
+}
+
+#home-icon{
+    width: 40%;
+    font-size:x-large;
+}
+
+.navbar{
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-item{
+   margin-bottom: 0px;
+   color: #551a8b;
+}
+
+@media (max-width: 840px){
+    .navbar{
+        display: inline-block;
+    }
+    .my-navbar{
+        display: inline-block;
+    }
+    #lekan{
+        float: right;
+    }
+}
+
+.menu{
+    margin-top: 32px;
+}
+
+.headline-holder{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+.headline{
+    color: #102C57;
+    font-size: 4rem;
+    font-family: "Cormorant", serif;
+    letter-spacing: 3px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#lekan{
+    height: 700px;
+    align-self: flex-end;
+}
+
+.img-holder{
+    display: flex;
+    justify-content: space-around;
+    grid-row: span 4;
+}
+
+#introduction{
+    font-size: 2rem;
+    text-align: end;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.button-holder{
+    display: flex;
+    justify-content: right;
+    height: 40px;
+}
+
+button{
+    background-color: #102C57;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.about-name{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.image-summary{
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-items: end;
+}
+
+#summary{
+    letter-spacing: 2px;
+    border-spacing: 10px;
+    margin-bottom: 0px;
+}
+
+.meat{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#personal{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: #102C57;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.footer-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #102C57;
+}
+
+.meat{
+    display:block
+}
+
+.meat-div{
+    margin-bottom: 50px;
+}
